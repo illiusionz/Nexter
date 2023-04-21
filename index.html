@@ -111,7 +111,7 @@
             <p class="story__text">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus. Quidem consequatur harum volupta!
             </p>
-            <button class="btn home__btn">Find your own home</button>
+            <button class="btn home__btn find-home-btn">Find your own home</button>
         </div>
 
         <!--HOMES-->
@@ -146,7 +146,7 @@
                     </svg>
                     <p>$1,200,000</p>
                 </div>
-                <button class="btn home__btn">Contact realtor</button>
+                <button class="btn home__btn contact-realtor-btn">Contact realtor</button>
             </div>
 
             <div class="home">
@@ -179,7 +179,7 @@
                     </svg>
                     <p>$2,2750,000</p>
                 </div>
-                <button class="btn home__btn">Contact realtor</button>
+                <button class="btn home__btn contact-realtor-btn">Contact realtor</button>
             </div>
             <div class="home">
                 <img src="img/house-3.jpeg" alt="House 1" class="home__img">
@@ -211,7 +211,7 @@
                     </svg>
                     <p>$850,000</p>
                 </div>
-                <button class="btn home__btn">Contact realtor</button>
+                <button class="btn home__btn contact-realtor-btn">Contact realtor</button>
             </div>
 
             <div class="home">
@@ -244,7 +244,7 @@
                     </svg>
                     <p>$1,950,000</p>
                 </div>
-                <button class="btn home__btn">Contact realtor</button>
+                <button class="btn home__btn contact-realtor-btn">Contact realtor</button>
             </div>
             <div class="home">
                 <img src="img/house-5.jpeg" alt="House 1" class="home__img">
@@ -276,7 +276,7 @@
                     </svg>
                     <p>$9,500,000</p>
                 </div>
-                <button class="btn home__btn">Contact realtor</button>
+                <button class="btn home__btn contact-realtor-btn">Contact realtor</button>
             </div>
             <div class="home">
                 <img src="img/house-6.jpeg" alt="House 1" class="home__img">
@@ -308,7 +308,7 @@
                     </svg>
                     <p>$600,000</p>
                 </div>
-                <button class="btn home__btn">Contact realtor</button>
+                <button class="btn home__btn contact-realtor-btn">Contact realtor</button>
             </div>
         </section>
 
@@ -384,21 +384,20 @@
                 <li class="nav__item"><a href="#" class="nav__link">Submit your property</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Come work with us!</a></li>
             </ul>
-            <p class="copyright">&copy; Copyright 2023 by Jeffrey Liu</p>
+            <p class="copyright">&copy; Copyright <span id="currentYear"></span> by Jeffrey Liu</p>
         </footer>
 
-
+        <!-- MODAL FOR GALLERY-->
         <div class="modal" id="modal">
             <div class="modal__bg"></div>
             <button class="modal__close">&times;</button>
 
-            <div class="modal__content">
+            <div class="modal__content modal-images__content">
                 <img src="" alt="Modal Image" class="modal__img">
             </div>
         </div>
 
-        <script type="text/javascript" src="js/modal-image.js"> </script>
-        <script type="text/javascript" src="js/scroll.js"> </script>
+        <script type="text/javascript" src="js/main.js"> </script>
     </body>        
 
 </html>

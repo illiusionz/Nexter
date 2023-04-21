@@ -1,3 +1,24 @@
+//Scrolling Effect
+const headerBtn = document.querySelector('.header__btn');
+const findHomeBtn = document.querySelector('.find-home-btn');
+const sectionHomes = document.querySelector('.homes');
+
+//add a click event listener to the button
+headerBtn.addEventListener('click', () => {
+    // scroll to the section using smooth behavior
+    sectionHomes.scrollIntoView({behavior: 'smooth'});
+});
+
+findHomeBtn.addEventListener('click', () => {
+    // scroll to the section using smooth behavior
+    sectionHomes.scrollIntoView({behavior: 'smooth'});
+});
+
+
+
+
+
+// Show Modal when clicking on Gallery Image
 const modal = document.getElementById("modal");
 const modalImg = document.querySelector(".modal__img");
 const modalBg = document.querySelector(".modal__bg");
@@ -42,3 +63,6 @@ modalBg.addEventListener("click", () => {
 });
 
 
+//Show Current Year
+const year = new Date().getFullYear();
+document.getElementById("currentYear").textContent = year;
