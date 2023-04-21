@@ -9,6 +9,8 @@
 
     &__item {
 
+        cursor: pointer;
+        
         &--1 {
             grid-column: 1 / span 2;
             grid-row: 1 / span 2;

@@ -24,12 +24,19 @@
     &__like {
         grid-row: 1 / 2;
         grid-column: 2 / 3;
-        fill: $color-primary;
+        fill: rgba(0, 0, 0, 0.5);
+        stroke: #fff;
+        stroke-width: 2;
         height:2.5rem;
         width:2.5rem;
         z-index: 2;
         justify-self: end;
         margin: 1rem;
+        cursor: pointer;
+
+        &:hover {
+            fill: #ff385c;
+        }
     }
 
     &__name {
