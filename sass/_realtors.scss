@@ -43,3 +43,12 @@
     }
 
 }
+
+.realtors__list img {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .realtors__list img:hover {
+    transform: scale(1.1);
+  }

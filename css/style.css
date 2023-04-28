@@ -210,6 +210,13 @@ body {
     color: #aaa;
     margin-top: -3px; }
 
+.realtors__list img {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer; }
+
+.realtors__list img:hover {
+  transform: scale(1.1); }
+
 .features {
   grid-column: center-start / center-end;
   margin: 15rem 0; }
